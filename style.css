@@ -1,0 +1,293 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+ /* Navigation bar styling............... */
+ .img{
+    width: 250px;
+    padding: 5px;
+ }
+
+.nav{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: #162466;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+.nav ul li {
+    padding: 15px 30px;
+    position: relative;
+    transition: .5s !important;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #ff3b33;
+    transition: .3s;
+}
+.menu-items a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+ /* Dropdown menu effect ............ */
+
+.dropdown{
+    /* display: none; */
+    transition: .1s;
+    width: 350px;
+    border-radius: 5px;
+    position: absolute;
+    left: 0%;
+    top: 80%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px 0px#8e8b8b77; /* display: none ; */
+}
+.nav ul li:hover .dropdown{
+display: block;  
+}
+.dropdown ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown ul li a{
+    color: #212529;
+}
+.dropdown ul li a:hover{
+    color: #ff3b33; 
+}
+.dropdown ul li a:hover .fa-arrow-right{
+    display: block;
+    margin-left: 180px;
+    margin-top: -16px;
+    transition: .5s ease;
+    color: #162466 !important;
+}
+.fa-arrow-right{
+    
+    display:none;
+}
+
+/* Sub dropdown menu style............ */
+.dropdown1{
+    display: none;
+}
+.dropdown ul li:hover .dropdown1{
+    display: block;
+    transition: .5s;
+    width: 350px;
+    border-radius: 5px;
+    position: absolute;
+    left: 103%;
+    top: -20%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 30px 0px #8e8b8b77;
+}
+.dropdown1 ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown1 ul li a{
+    color: #212529;
+}
+.dropdown1 ul li a:hover{
+    color: #ff3b33; 
+}
+ 
+/* 2............. */
+.dropdown2{
+    display: none;
+}
+.dropdown ul li:hover .dropdown2{
+    display: block;
+    transition: .5s;
+    width: 350px;
+    border-radius: 5px;
+    position: absolute;
+    left: 103%;
+    top: -120%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 30px 0px #8e8b8b77;
+}
+.dropdown2 ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown2 ul li a{
+    color: #212529;
+}
+.dropdown2 ul li a:hover{
+    color: #ff3b33; 
+}
+/* 3....... */
+.dropdown3{
+    display: none;
+}
+.dropdown ul li:hover .dropdown3{
+    display: block;
+    transition: .5s;
+    width: 350px;
+    border-radius: 5px;
+    position: absolute;
+    left: 103%;
+    top: -220%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 30px 0px #8e8b8b77;
+}
+.dropdown3 ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown3 ul li a{
+    color: #212529;
+}
+.dropdown3 ul li a:hover{
+    color: #ff3b33; 
+}
+/* 4........ */
+.dropdown4{
+    display: block;
+    transition: .5s;
+    width: 350px;
+    border-radius: 5px;
+    position: absolute;
+    left: 103%;
+    top: -320%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 30px 0px #8e8b8b77;
+}
+.dropdown ul li:hover .dropdown4{
+   display: block;
+}
+.dropdown4 ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown4 ul li a{
+    color: #212529;
+}
+.dropdown4 ul li a:hover{
+    color: #ff3b33; 
+}
+/* 5......... */
+.dropdown5{
+    display: none;
+}
+.dropdown ul li:hover .dropdown5{
+    display: block;
+    transition: .5s;
+    width: 350px;
+    border-radius: 5px;
+    position: absolute;
+    left: 103%;
+    top: -420%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 30px 0px #8e8b8b77;
+}
+.dropdown5 ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown5 ul li a{
+    color: #212529;
+}
+.dropdown5 ul li a:hover{
+    color: #ff3b33; 
+}
+/* 6....... */
+.dropdown6{
+    display: none;
+}
+.dropdown ul li:hover .dropdown6{
+    display: block;
+    transition: .5s;
+    width: 350px;
+    border-radius: 5px;
+    position: absolute;
+    left: 103%;
+    top: -520%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 30px 0px #8e8b8b77;
+}
+.dropdown6 ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown6 ul li a{
+    color: #212529;
+}
+.dropdown6 ul li a:hover{
+    color: #ff3b33; 
+}
+/* 7.......... */
+.dropdown7{
+    display: none;
+}
+.dropdown ul li:hover .dropdown7{
+    display: block;
+    transition: .5s;
+    width: 350px;
+    border-radius: 5px;
+    position: absolute;
+    left: 103%;
+    top: -620%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 30px 0px #8e8b8b77;
+}
+.dropdown7 ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown7 ul li a{
+    color: #212529;
+}
+.dropdown7 ul li a:hover{
+    color: #ff3b33; 
+}
+/* 8........ */
+.dropdown8{
+    display: none;
+}
+.dropdown ul li:hover .dropdown8{
+    display: block;
+    transition: .5s;
+    width: 350px;
+    border-radius: 5px;
+    position: absolute;
+    left: 103%;
+    top: -720%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 30px 0px #8e8b8b77;
+}
+.dropdown8 ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown8 ul li a{
+    color: #212529;
+}
+.dropdown8 ul li a:hover{
+    color: #ff3b33; 
+}
+/* Navigation manu button style.......... */
+.button{
+    background-color: #ff3b33; 
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 22px 2px;
+    cursor: pointer;
+  }
+
+    
